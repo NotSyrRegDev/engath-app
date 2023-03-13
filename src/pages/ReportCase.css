@@ -1,0 +1,39 @@
+
+.btns_action_div button {
+    padding: 0.3rem 2.5rem;
+}
+
+.times_row {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    direction: ltr;
+}
+.time_input {
+    border: none;
+    padding: 10px; 
+    width: 63px;
+    height: 42px; 
+    border-radius: 9px;
+    background: #f9f9f9;
+    color: #010101;
+    border: 1px solid #0101019f;
+    font-family: 'Tajawal';
+    font-size: 24px;
+
+}
+
+.dot_time {
+    margin: 0 0.5rem;
+    font-size: 42px;
+    color: #010101;
+}
+
+.action_div .location_image {
+    width: 100%;
+   
+}
+
+.teams_inputs_div input {
+    margin-top: 0.5rem;
+}

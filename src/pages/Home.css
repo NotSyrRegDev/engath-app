@@ -1,0 +1,51 @@
+
+.main_center {
+    height: 60vh;
+   text-align: center;
+}
+
+.single_action_div {
+    cursor: pointer;
+    margin-top: 1.5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1C6BA4;
+    padding: 0.5rem 3.5rem;
+    border-radius: 500px;
+}
+
+.headline_info {
+    font-family: 'Cairo' , sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.single_action_img {
+    margin-left: 15px;
+    background: #fff;
+    padding: 2px;
+    border-radius: 500px;
+    max-height: 3.5rem;
+}
+
+@media (max-width: 600px) {
+    .single_action_div  {
+        height: 3.5rem;
+        padding: 0.1rem 1rem;
+    }
+
+    .headline_info {
+ 
+        font-size: 18px;
+
+    }
+    
+    .single_action_img {
+  
+        padding: 2px;
+      
+        max-height: 2.5rem;
+    }
+}

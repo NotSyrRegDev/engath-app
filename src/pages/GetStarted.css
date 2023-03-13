@@ -1,0 +1,44 @@
+
+.main_get_started {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main_get_started img {
+    max-height: 18rem;
+}
+
+.main_get_started .engath_btn {
+    margin-top: 4rem;
+}
+
+@media (max-width: 500px) {
+    .main_get_started img {
+        max-height: 15rem;
+    }
+    
+    .main_get_started .engath_btn {
+        margin-top: 3rem;
+    }
+
+    
+  .engath_btn {   
+    font-size: 20px;  
+    padding: 0.3rem 2rem;
+  }
+  
+}
+
+@media (max-width: 350px) { 
+    .main_get_started img {
+        max-height: 12rem;
+    }
+       
+  .engath_btn {   
+    font-size: 18px;  
+    padding: 0.3rem 1.5rem;
+  }
+}

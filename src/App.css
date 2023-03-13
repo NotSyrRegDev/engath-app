@@ -1,38 +1,229 @@
-.App {
-  text-align: center;
+
+/* font-family: 'Cairo', sans-serif;
+font-family: 'Tajawal', sans-serif; */
+
+/*
+
+COLORS : 
+
+BLUE COLOR : #1C6BA4
+
+RED COLOR : #FB3445
+
+GRAY COLOR : #C6C6C6
+
+BLACK COLOR : #0E1012
+
+LIGHT BLUE COLOR : #EAF0F7
+
+*/
+
+.a_link {
+  list-style: none;
+  color: inherit;
+  cursor: pointer;
+  color: #FB3445;
+
+}
+.icon_small {
+  max-height: 2.5rem;
+}
+.loading_spinner {
+  max-height: 5.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.a_underline {
+  text-decoration: underline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.star_required {
+  color: #FB3445;
+}
+.iwaiter_container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0 35px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .section {
+    margin-top: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .setion_offer {
+    direction: rtl;
+    margin-top: 3rem;
   }
-}
+  
+  .section_headline_big {
+    color: #1C6BA4;
+    font-size: 32px;
+    font-family: 'Cairo';
+    font-weight: 500;
+  
+  }
+  
+  .section_headline {
+    color: #1C6BA4;
+    font-size: 28px;
+    font-family: 'Cairo';
+    font-weight: 500;
+  
+  }
+  
+  .section_headline_sm {
+    color: #1C6BA4;
+    font-size: 24px;
+    font-family: 'Cairo';
+    font-weight: 500;
+  
+  }
+  .grid_offer {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2.5rem;
+  }
+  
+  .single_new_product {
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    
+    padding-bottom: 0.3rem;
+    box-sizing: 0 12px 32px rgba(0,0,0,0.4);
+    max-width: 45vw;
+    border: 1px solid #a1a0a0a1;
+  }
+
+  .btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .height_form {
+    height: 7rem !important;
+  }
+
+  .engath_btn {
+    font-family: 'Cairo' , sans-serif;
+    font-size: 22px;
+    background: #1C6BA4;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 2.5rem;
+    border-radius: 500px;
+
+  }
+  
+  .mt-3 {
+    margin-top: 3.2rem;
+  }
+  .mb-1 {
+    margin-bottom: 1.2rem;
+  }
+  .mt-1 {
+    margin-top: 1.2rem;
+  }
+  .mt-2 {
+    margin-top: 2.2rem;
+  }
+  .my-1 {
+    margin: 0 1.5rem;
+  }
+
+  .flex_space {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .icon_mid {
+    max-height: 2.2rem;
+    margin-right: 8px;
+  }
+
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+
+  
+  
+  @media (max-width: 650px) {
+    .section_headline {
+      font-size: 26px;
+    }
+    .section_headline_big {
+      font-size: 28px;
+    }
+    .section_headline_sm {
+      font-size: 22px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .section_headline {
+      font-size: 24px;
+    }
+    .section_headline_big {
+      font-size: 24px;
+    }
+    .section_headline_sm {
+      font-size: 20px;
+    }
+    .iwaiter_container {
+      padding: 0 15px;
+    }
+    .single_new_product {
+      min-width: 100%;
+    }
+    .grid_offer {
+      grid-template-columns: repeat(1 , 1fr);
+    }
+    .icon_mid {
+      max-height: 1.5rem;
+      margin-right: 4px;
+    }
+  }

@@ -1,0 +1,17 @@
+
+
+.fotter_section {
+    margin-top: 4rem;
+    position: relative;
+}
+.footer_area {
+  position: fixed;
+  bottom: 0%;
+}
+.footer_subheadline {
+    text-align: center;
+    color: #0a224097;
+    font-size: 18px;
+    font-family: 'Tajawal' , sans-serif;
+    font-weight: 500;
+}
